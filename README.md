@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Tanmay</h1>
-<h3 align="center">PGDM E-Business | WeSchool Mumbai | Digital Marketing × Tech</h3>
+<h3 align="center">PGDM E-Business | WeSchool Mumbai | Marketer × Tech</h3>
 
 <p align="left"><img src="https://komarev.com/ghpvc/?username=tanmay7264&label=Profile%20views&color=0e75b6&style=flat" alt="tanmay7264" /></p>
 
