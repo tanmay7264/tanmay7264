@@ -16,27 +16,34 @@
   .spin{transform-origin:center;transform-box:fill-box;animation:spin 40s linear infinite} .spin-r{animation-direction:reverse;animation-duration:60s}
   @keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
   @keyframes draw{to{stroke-dashoffset:0}}
+  .bob{animation:bob 5s ease-in-out infinite alternate} .bob2{animation-duration:3.6s;animation-delay:-1.2s} .bob3{animation-duration:4.4s;animation-delay:-2.5s}
+  .win{animation:win 4s ease-in-out infinite alternate} .wave{animation:wave 3s ease-in-out infinite alternate}
+  .flag{transform-box:fill-box;transform-origin:left center;animation:flag 1.6s ease-in-out infinite alternate}
   @keyframes spin{to{transform:rotate(360deg)}}
-  @media (prefers-reduced-motion:reduce){.in,.spin{animation:none}.draw{animation:none;stroke-dashoffset:0}}
+  @keyframes bob{to{transform:translateY(-10px)}}
+  @keyframes win{0%,40%{opacity:.25}100%{opacity:1}}
+  @keyframes wave{from{opacity:.15}to{opacity:.6}}
+  @keyframes flag{to{transform:skewY(6deg) scaleX(.92)}}
+  @media (prefers-reduced-motion:reduce){.in,.spin,.bob,.win,.wave,.flag{animation:none}.draw{animation:none;stroke-dashoffset:0}}
 </style>
 <g clip-path="url(#clip)"><rect width="1200" height="340" fill="url(#bg)"/><rect x="720" width="480" height="340" fill="url(#grid)"/><rect width="1200" height="340" fill="url(#glow)"/>
 <rect x=".5" y=".5" width="1199" height="339" rx="18" fill="none" stroke="#1E2A44"/>
-<g class="in d1"><rect x="40" y="36" width="356" height="122" rx="14" fill="#070B16" fill-opacity=".6" stroke="#1E2A44"/>
-<text class="serif" x="64" y="88" font-size="34" fill="url(#sheen)" font-weight="300">99.37</text>
-<text class="sans" x="64" y="116" font-size="15.5" fill="#F5F1E8" font-weight="600">CMAT percentile</text><text class="sans" x="64" y="138" font-size="13" fill="#9AA6B8">Innovation &amp; Entrepreneurship, top 1%</text></g>
-<g class="in d2"><rect x="416" y="36" width="356" height="122" rx="14" fill="#070B16" fill-opacity=".6" stroke="#1E2A44"/>
-<text class="serif" x="440" y="88" font-size="34" fill="url(#sheen)" font-weight="300">Award</text>
-<text class="sans" x="440" y="116" font-size="15.5" fill="#F5F1E8" font-weight="600">Outstanding Internship</text><text class="sans" x="440" y="138" font-size="13" fill="#9AA6B8">University of Bamberg, Germany</text></g>
-<g class="in d3"><rect x="792" y="36" width="356" height="122" rx="14" fill="#070B16" fill-opacity=".6" stroke="#1E2A44"/>
-<text class="serif" x="816" y="88" font-size="34" fill="url(#sheen)" font-weight="300">1,400+</text>
-<text class="sans" x="816" y="116" font-size="15.5" fill="#F5F1E8" font-weight="600">Learning community</text><text class="sans" x="816" y="138" font-size="13" fill="#9AA6B8">WeSchool students across AI &amp; tech</text></g>
-<g class="in d4"><rect x="40" y="176" width="356" height="122" rx="14" fill="#070B16" fill-opacity=".6" stroke="#1E2A44"/>
-<text class="serif" x="64" y="228" font-size="34" fill="url(#sheen)" font-weight="300">Winner</text>
-<text class="sans" x="64" y="256" font-size="15.5" fill="#F5F1E8" font-weight="600">InnoMUN 2025</text><text class="sans" x="64" y="278" font-size="13" fill="#9AA6B8">BITS Pilani Marketing Parliament</text></g>
-<g class="in d5"><rect x="416" y="176" width="356" height="122" rx="14" fill="#070B16" fill-opacity=".6" stroke="#1E2A44"/>
-<text class="serif" x="440" y="228" font-size="34" fill="url(#sheen)" font-weight="300">2nd RU</text>
-<text class="sans" x="440" y="256" font-size="15.5" fill="#F5F1E8" font-weight="600">We4Tech hackathon</text><text class="sans" x="440" y="278" font-size="13" fill="#9AA6B8">Among 90 teams, rail-pass prototype</text></g>
-<g class="in d6"><rect x="792" y="176" width="356" height="122" rx="14" fill="#070B16" fill-opacity=".6" stroke="#1E2A44"/>
-<text class="serif" x="816" y="228" font-size="34" fill="url(#sheen)" font-weight="300">Lead</text>
-<text class="sans" x="816" y="256" font-size="15.5" fill="#F5F1E8" font-weight="600">Google Student Developer</text><text class="sans" x="816" y="278" font-size="13" fill="#9AA6B8">Junior Community Lead, West Zone</text></g>
+<g class="in d1"><polygon points="40.0,44.0 52.0,32.0 400.0,32.0 388.0,44.0" fill="#F2A541" fill-opacity=".22"/><polygon points="388.0,44.0 400.0,32.0 400.0,154.0 388.0,166.0" fill="#B8661F" fill-opacity=".4"/><rect x="40" y="44" width="348" height="122" fill="#070B16" fill-opacity=".92" stroke="#1E2A44"/>
+<text class="serif" x="64" y="96" font-size="34" fill="url(#sheen)" font-weight="300">99.37</text>
+<text class="sans" x="64" y="124" font-size="15.5" fill="#F5F1E8" font-weight="600">CMAT percentile</text><text class="sans" x="64" y="146" font-size="13" fill="#9AA6B8">Innovation &amp; Entrepreneurship, top 1%</text></g>
+<g class="in d2"><polygon points="416.0,44.0 428.0,32.0 776.0,32.0 764.0,44.0" fill="#F2A541" fill-opacity=".22"/><polygon points="764.0,44.0 776.0,32.0 776.0,154.0 764.0,166.0" fill="#B8661F" fill-opacity=".4"/><rect x="416" y="44" width="348" height="122" fill="#070B16" fill-opacity=".92" stroke="#1E2A44"/>
+<text class="serif" x="440" y="96" font-size="34" fill="url(#sheen)" font-weight="300">Award</text>
+<text class="sans" x="440" y="124" font-size="15.5" fill="#F5F1E8" font-weight="600">Outstanding Internship</text><text class="sans" x="440" y="146" font-size="13" fill="#9AA6B8">University of Bamberg, Germany</text></g>
+<g class="in d3"><polygon points="792.0,44.0 804.0,32.0 1152.0,32.0 1140.0,44.0" fill="#F2A541" fill-opacity=".22"/><polygon points="1140.0,44.0 1152.0,32.0 1152.0,154.0 1140.0,166.0" fill="#B8661F" fill-opacity=".4"/><rect x="792" y="44" width="348" height="122" fill="#070B16" fill-opacity=".92" stroke="#1E2A44"/>
+<text class="serif" x="816" y="96" font-size="34" fill="url(#sheen)" font-weight="300">1,400+</text>
+<text class="sans" x="816" y="124" font-size="15.5" fill="#F5F1E8" font-weight="600">Learning community</text><text class="sans" x="816" y="146" font-size="13" fill="#9AA6B8">WeSchool students across AI &amp; tech</text></g>
+<g class="in d4"><polygon points="40.0,186.0 52.0,174.0 400.0,174.0 388.0,186.0" fill="#F2A541" fill-opacity=".22"/><polygon points="388.0,186.0 400.0,174.0 400.0,296.0 388.0,308.0" fill="#B8661F" fill-opacity=".4"/><rect x="40" y="186" width="348" height="122" fill="#070B16" fill-opacity=".92" stroke="#1E2A44"/>
+<text class="serif" x="64" y="238" font-size="34" fill="url(#sheen)" font-weight="300">Winner</text>
+<text class="sans" x="64" y="266" font-size="15.5" fill="#F5F1E8" font-weight="600">InnoMUN 2025</text><text class="sans" x="64" y="288" font-size="13" fill="#9AA6B8">BITS Pilani Marketing Parliament</text></g>
+<g class="in d5"><polygon points="416.0,186.0 428.0,174.0 776.0,174.0 764.0,186.0" fill="#F2A541" fill-opacity=".22"/><polygon points="764.0,186.0 776.0,174.0 776.0,296.0 764.0,308.0" fill="#B8661F" fill-opacity=".4"/><rect x="416" y="186" width="348" height="122" fill="#070B16" fill-opacity=".92" stroke="#1E2A44"/>
+<text class="serif" x="440" y="238" font-size="34" fill="url(#sheen)" font-weight="300">2nd RU</text>
+<text class="sans" x="440" y="266" font-size="15.5" fill="#F5F1E8" font-weight="600">We4Tech hackathon</text><text class="sans" x="440" y="288" font-size="13" fill="#9AA6B8">Among 90 teams, rail-pass prototype</text></g>
+<g class="in d6"><polygon points="792.0,186.0 804.0,174.0 1152.0,174.0 1140.0,186.0" fill="#F2A541" fill-opacity=".22"/><polygon points="1140.0,186.0 1152.0,174.0 1152.0,296.0 1140.0,308.0" fill="#B8661F" fill-opacity=".4"/><rect x="792" y="186" width="348" height="122" fill="#070B16" fill-opacity=".92" stroke="#1E2A44"/>
+<text class="serif" x="816" y="238" font-size="34" fill="url(#sheen)" font-weight="300">Lead</text>
+<text class="sans" x="816" y="266" font-size="15.5" fill="#F5F1E8" font-weight="600">Google Student Developer</text><text class="sans" x="816" y="288" font-size="13" fill="#9AA6B8">Junior Community Lead, West Zone</text></g>
 </g></svg>

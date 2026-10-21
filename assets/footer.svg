@@ -16,8 +16,15 @@
   .spin{transform-origin:center;transform-box:fill-box;animation:spin 40s linear infinite} .spin-r{animation-direction:reverse;animation-duration:60s}
   @keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
   @keyframes draw{to{stroke-dashoffset:0}}
+  .bob{animation:bob 5s ease-in-out infinite alternate} .bob2{animation-duration:3.6s;animation-delay:-1.2s} .bob3{animation-duration:4.4s;animation-delay:-2.5s}
+  .win{animation:win 4s ease-in-out infinite alternate} .wave{animation:wave 3s ease-in-out infinite alternate}
+  .flag{transform-box:fill-box;transform-origin:left center;animation:flag 1.6s ease-in-out infinite alternate}
   @keyframes spin{to{transform:rotate(360deg)}}
-  @media (prefers-reduced-motion:reduce){.in,.spin{animation:none}.draw{animation:none;stroke-dashoffset:0}}
+  @keyframes bob{to{transform:translateY(-10px)}}
+  @keyframes win{0%,40%{opacity:.25}100%{opacity:1}}
+  @keyframes wave{from{opacity:.15}to{opacity:.6}}
+  @keyframes flag{to{transform:skewY(6deg) scaleX(.92)}}
+  @media (prefers-reduced-motion:reduce){.in,.spin,.bob,.win,.wave,.flag{animation:none}.draw{animation:none;stroke-dashoffset:0}}
 </style>
 <g clip-path="url(#clip)"><rect width="1200" height="160" fill="url(#bg)"/><rect x="720" width="480" height="160" fill="url(#grid)"/><rect width="1200" height="160" fill="url(#glow)"/>
 <rect x=".5" y=".5" width="1199" height="159" rx="18" fill="none" stroke="#1E2A44"/>
