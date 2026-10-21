@@ -19,7 +19,8 @@
   @keyframes spin{to{transform:rotate(360deg)}}
   @media (prefers-reduced-motion:reduce){.in,.spin{animation:none}.draw{animation:none;stroke-dashoffset:0}}
 </style>
-<g>
+<g clip-path="url(#clip)"><rect width="1200" height="120" fill="url(#bg)"/><rect x="720" width="480" height="120" fill="url(#grid)"/><rect width="1200" height="120" fill="url(#glow)"/>
+<rect x=".5" y=".5" width="1199" height="119" rx="18" fill="none" stroke="#1E2A44"/>
 
 <g class="in"><text class="mono" x="40" y="34" font-size="12" fill="#F2A541" letter-spacing="3"><tspan fill="#FFD9A8">01</tspan>   ABOUT</text></g>
 <g class="in d1"><text class="serif" x="38" y="84" font-size="44" fill="#F5F1E8" letter-spacing="-1" font-weight="300">Hello, I'm <tspan font-style="italic" fill="url(#sheen)">Tanmay.</tspan></text></g>

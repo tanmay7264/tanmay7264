@@ -30,10 +30,10 @@ const defs = (w, h) => `<defs>
   <clipPath id="clip"><rect width="${w}" height="${h}" rx="18"/></clipPath>
 </defs>`;
 
-const svg = (w, h, label, body, card = true) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" role="img" aria-label="${esc(label)}">
+const svg = (w, h, label, body) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" role="img" aria-label="${esc(label)}">
 ${defs(w, h)}${STYLE}
-${card ? `<g clip-path="url(#clip)"><rect width="${w}" height="${h}" fill="url(#bg)"/><rect x="${w * 0.6}" width="${w * 0.4}" height="${h}" fill="url(#grid)"/><rect width="${w}" height="${h}" fill="url(#glow)"/>
-<rect x=".5" y=".5" width="${w - 1}" height="${h - 1}" rx="18" fill="none" stroke="${C.line}"/>` : "<g>"}
+<g clip-path="url(#clip)"><rect width="${w}" height="${h}" fill="url(#bg)"/><rect x="${w * 0.6}" width="${w * 0.4}" height="${h}" fill="url(#grid)"/><rect width="${w}" height="${h}" fill="url(#glow)"/>
+<rect x=".5" y=".5" width="${w - 1}" height="${h - 1}" rx="18" fill="none" stroke="${C.line}"/>
 ${body}
 </g></svg>\n`;
 
@@ -126,7 +126,7 @@ for (const [id, n, label, a, b, right] of titles)
 <g class="in">${text(40, 34, `<tspan fill="${C.soft}">${n}</tspan>   ${label}`, { cls: "mono", size: 12, fill: C.accent, ls: 3 })}</g>
 <g class="in d1">${text(38, 84, `${esc(a)} <tspan font-style="italic" fill="url(#sheen)">${esc(b)}</tspan>`, { cls: "serif", size: 44, fill: C.ink, weight: 300, ls: -1 })}</g>
 <g class="in d2">${text(1160, 34, esc(right), { cls: "mono", size: 10.5, fill: C.muted, anchor: "end", ls: 2.4 })}</g>
-<path class="draw" d="M40 106 H1160" stroke="url(#rule)"/>`, false);
+<path class="draw" d="M40 106 H1160" stroke="url(#rule)"/>`);
 
 out["about"] = svg(1200, 300, `About: ${D.about.join(" ")}`, `
 <g class="in d1">${lines(56, 72, D.about, 28, { size: 17, fill: C.muted })}</g>
