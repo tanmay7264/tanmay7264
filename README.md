@@ -1,56 +1,66 @@
-<h1 align="center">Hi 👋, I'm Tanmay</h1>
-<h3 align="center">PGDM E-Business | WeSchool Mumbai | Marketer × Tech</h3>
+<a href="https://tanmay-portfolio-jade.vercel.app">
+  <img src="assets/hero.svg" width="100%" alt="Tanmay Narnaware — Product &amp; Growth Builder. I connect engineering, customer insight and growth to build products people return to.">
+</a>
 
-<p align="left"><img src="https://komarev.com/ghpvc/?username=tanmay7264&label=Profile%20views&color=0e75b6&style=flat" alt="tanmay7264" /></p>
-
-<p align="left"><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=tanmay7264&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="tanmay7264 trophies" /></a></p>
-
----
-
-## 🚀 About Me
-
-- 🔭 I'm currently working on **digital marketing strategies & tech-driven business solutions**
-- 👯 I'm looking to collaborate on **growth hacking, product launches & e-business projects**
-- 🤝 I'm looking for help with **brand building, scaling digital products & consumer analytics**
-- 🌱 I'm currently learning **data-driven marketing, business analytics & consumer behaviour**
-- 💬 Ask me about **digital marketing, e-business strategy, React, startups & growth hacking**
-- ⚡ Fun fact: **The best marketing doesn't feel like marketing — it just solves problems!**
-
----
-
-## 🌐 Socials
-
-<p align="left">
-<a href="https://instagram.com/tanmay__19" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="tanmay__19" height="30" width="40" /></a>&nbsp;
-<a href="https://linkedin.com/in/ktanmayn" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ktanmayn" height="30" width="40" /></a>
+<p align="center">
+  <a href="https://tanmay-portfolio-jade.vercel.app"><img src="https://img.shields.io/badge/Portfolio-tanmay--portfolio-B8661F?style=for-the-badge&labelColor=070B16&logoColor=F5F1E8&logo=vercel" alt="Portfolio website"></a>
+  <a href="https://www.linkedin.com/in/ktanmayn/"><img src="https://img.shields.io/badge/LinkedIn-ktanmayn-B8661F?style=for-the-badge&labelColor=070B16&logoColor=F5F1E8&logo=linkedin" alt="LinkedIn profile"></a>
+  <a href="mailto:ktanmay.career@gmail.com"><img src="https://img.shields.io/badge/Email-ktanmay.career@gmail.com-B8661F?style=for-the-badge&labelColor=070B16&logoColor=F5F1E8&logo=gmail" alt="Email ktanmay.career@gmail.com"></a>
+  <a href="https://www.instagram.com/tanmay__19"><img src="https://img.shields.io/badge/Instagram-tanmay__19-B8661F?style=for-the-badge&labelColor=070B16&logoColor=F5F1E8&logo=instagram" alt="Instagram tanmay__19"></a>
 </p>
 
----
+<img src="assets/title-about.svg" width="100%" alt="01 About — Hello, I'm Tanmay.">
+<img src="assets/about.svg" width="100%" alt="About: Product and growth builder who started in engineering. 30 months at Apexon; ran a hospitality business and a digital studio. Now PGDM E-Business '27 at WeSchool Mumbai, recently PM and Strategy Intern at the University of Bamberg, building BatchMates.">
 
-## 🛠️ Tech Stack
+<img src="assets/title-recognition.svg" width="100%" alt="02 Recognition — Proof, on the record.">
+<img src="assets/recognition.svg" width="100%" alt="CMAT Innovation and Entrepreneurship 99.37 percentile; Outstanding Internship Recognition, University of Bamberg; 1,400+ member WeSchool learning community; InnoMUN 2025 winner; We4Tech second runner-up among 90 teams; Google Student Developer Junior Community Lead, West Zone.">
 
-<p align="left">
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>&nbsp;
-<a href="https://www.typescriptlang.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/></a>&nbsp;
-<a href="https://reactjs.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></a>&nbsp;
-<a href="https://nextjs.org/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/></a>&nbsp;
-<a href="https://nodejs.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></a>&nbsp;
-<a href="https://www.python.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>&nbsp;
-<a href="https://www.figma.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/></a>&nbsp;
-<a href="https://www.canva.com" target="_blank"><img src="https://www.vectorlogo.zone/logos/canva/canva-icon.svg" alt="canva" width="40" height="40"/></a>&nbsp;
-<a href="https://git-scm.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a>
+<img src="assets/title-work.svg" width="100%" alt="03 Selected work — Products, not just projects.">
+
+<a href="https://batchmates.vercel.app"><img src="assets/project-batchmates.svg" width="100%" alt="BatchMates: a verified student network for finding the right peer, mentor or opportunity."></a>
+<p align="center">
+  <a href="https://batchmates.vercel.app"><img src="https://img.shields.io/badge/Live-batchmates.vercel.app-3B2A14?style=for-the-badge&labelColor=070B16&logoColor=F5F1E8&logo=vercel" alt="BatchMates live site"></a>
 </p>
 
----
+<a href="https://github.com/tanmay7264/glucose-digital-twin"><img src="assets/project-glucose-twin.svg" width="100%" alt="Glucose Digital Twin: post-meal glucose twin for T2D and prediabetes using an ODE model, Unscented Kalman Filter and boosted residual, validated on CGMacros and ShanghaiT2DM."></a>
+<p align="center">
+  <a href="https://github.com/tanmay7264/glucose-digital-twin"><img src="https://img.shields.io/badge/Repository-glucose--digital--twin-3B2A14?style=for-the-badge&labelColor=070B16&logoColor=F5F1E8&logo=github" alt="Glucose Digital Twin repository"></a>
+  <a href="https://github.com/tanmay7264/twin-nagar"><img src="https://img.shields.io/badge/3D_companion-twin--nagar-3B2A14?style=for-the-badge&labelColor=070B16&logoColor=F5F1E8&logo=github" alt="Twin Nagar repository"></a>
+</p>
 
-## 📊 GitHub Stats
+<a href="https://industrial-knowledge-intelligence-eight.vercel.app"><img src="assets/project-industrial-ki.svg" width="100%" alt="Industrial Knowledge AI: GraphRAG copilot, entity extraction and compliance-gap detection for industrial domains."></a>
+<p align="center">
+  <a href="https://industrial-knowledge-intelligence-eight.vercel.app"><img src="https://img.shields.io/badge/Live_demo-vercel.app-3B2A14?style=for-the-badge&labelColor=070B16&logoColor=F5F1E8&logo=vercel" alt="Industrial Knowledge AI live demo"></a>
+  <a href="https://github.com/tanmay7264/industrial-knowledge-intelligence"><img src="https://img.shields.io/badge/Repository-industrial--knowledge-3B2A14?style=for-the-badge&labelColor=070B16&logoColor=F5F1E8&logo=github" alt="Industrial Knowledge AI repository"></a>
+</p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=tanmay7264&show_icons=true&locale=en&layout=compact&theme=shadow_blue" alt="tanmay7264" /></p>
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=tanmay7264&show_icons=true&locale=en&theme=shadow_blue&count_private=true" alt="tanmay7264" /></p>
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tanmay7264&theme=shadow_blue" alt="tanmay7264" /></p>
+<a href="https://career-ops-web-three.vercel.app"><img src="assets/project-career-ops.svg" width="100%" alt="Career-Ops Web: an AI-powered job-search pipeline in the browser."></a>
+<p align="center">
+  <a href="https://career-ops-web-three.vercel.app"><img src="https://img.shields.io/badge/Live_demo-vercel.app-3B2A14?style=for-the-badge&labelColor=070B16&logoColor=F5F1E8&logo=vercel" alt="Career-Ops Web live demo"></a>
+  <a href="https://github.com/tanmay7264/career-ops-web"><img src="https://img.shields.io/badge/Repository-career--ops--web-3B2A14?style=for-the-badge&labelColor=070B16&logoColor=F5F1E8&logo=github" alt="Career-Ops Web repository"></a>
+</p>
 
----
+<img src="assets/title-toolkit.svg" width="100%" alt="04 Toolkit — The tools I reach for.">
+<img src="assets/toolkit.svg" width="100%" alt="Product and growth: product strategy, user research, GTM, SEO, funnels and KPIs, pricing. Frontend: React, Next.js, TypeScript, JavaScript, Tailwind, HTML/CSS. AI and data: LLMs, RAG and GraphRAG, AI agents, Python, Claude Code, analytics. Tools: Git, GitHub, Figma, Canva, Vercel, Supabase.">
 
-## 🏆 Top Contributed Repos
+<img src="assets/title-commits.svg" width="100%" alt="05 Commit log — A year of building.">
+<img src="https://raw.githubusercontent.com/tanmay7264/tanmay7264/output/snake.svg" width="100%" alt="Animated snake eating my public GitHub contributions over the past year. Re-rendered daily.">
 
-<p align="left"><img src="https://github-contributor-stats.vercel.app/api?username=tanmay7264&limit=5&theme=shadow_blue&combine_all_yearly_contributions=true" alt="tanmay7264 top repos"/></p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=tanmay7264&show_icons=true&hide_rank=true&hide_border=true&border_radius=16&bg_color=0B1120&title_color=F2A541&text_color=9AA6B8&icon_color=F2A541&count_private=true&custom_title=GitHub%20at%20a%20glance" width="400" alt="GitHub stats for tanmay7264">
+</p>
+
+<img src="assets/title-experience.svg" width="100%" alt="06 Experience — Where I've shipped.">
+<img src="assets/experience.svg" width="100%" alt="University of Bamberg, Product Management and Strategy Intern, 2026. Apexon, Associate Software Engineer to Senior Front End Developer, 2021 to 2024: 30% faster load speed, 20% higher engagement. Lonavala Villas, founder: occupancy 45% to 80%. The Socials Web, co-founder: +40% organic traffic, 3x leads.">
+
+<img src="assets/title-connect.svg" width="100%" alt="07 Connect — Let's build something people return to.">
+
+<p align="center">
+  <a href="mailto:ktanmay.career@gmail.com"><img src="https://img.shields.io/badge/Email-ktanmay.career@gmail.com-B8661F?style=for-the-badge&labelColor=070B16&logoColor=F5F1E8&logo=gmail" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/ktanmayn/"><img src="https://img.shields.io/badge/LinkedIn-ktanmayn-B8661F?style=for-the-badge&labelColor=070B16&logoColor=F5F1E8&logo=linkedin" alt="LinkedIn"></a>
+  <a href="https://tanmay-portfolio-jade.vercel.app"><img src="https://img.shields.io/badge/Portfolio-tanmay--portfolio-B8661F?style=for-the-badge&labelColor=070B16&logoColor=F5F1E8&logo=vercel" alt="Portfolio"></a>
+</p>
+
+<a href="https://tanmay-portfolio-jade.vercel.app">
+  <img src="assets/footer.svg" width="100%" alt="Tanmay — building products people return to.">
+</a>

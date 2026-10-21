@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="About: Product &amp; growth builder who started in engineering. Thirty months at Apexon taught me how technical decisions move engagement; running a hospitality business and a digital studio taught me to measure bookings, leads and trust.  Today I study PGDM E-Business at WeSchool Mumbai, build BatchMates, and keep asking one question: what makes people choose a product and come back?">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1120"/><stop offset="1" stop-color="#070B16"/></linearGradient>
+  <radialGradient id="glow" cx="85%" cy="25%" r="60%"><stop offset="0" stop-color="#B8661F" stop-opacity=".45"/><stop offset="1" stop-color="#B8661F" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#F2A541" stroke-opacity=".06"/></pattern>
+  <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F2A541"/><stop offset=".6" stop-color="#B8661F"/><stop offset="1" stop-color="#B8661F" stop-opacity="0"/></linearGradient>
+  <linearGradient id="sheen" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
+    <stop offset="0" stop-color="#F2A541"/><stop offset=".5" stop-color="#F5F1E8"/><stop offset="1" stop-color="#F2A541"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1500 0;1500 0" keyTimes="0;.4;1" dur="7s" begin="1.5s" repeatCount="indefinite"/>
+  </linearGradient>
+  <clipPath id="clip"><rect width="1200" height="300" rx="18"/></clipPath>
+</defs><style>
+  .serif{font-family:Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif} .mono{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace} .sans{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif}
+  .in{animation:in 1.1s cubic-bezier(.16,1,.3,1) both} .d1{animation-delay:.15s} .d2{animation-delay:.35s} .d3{animation-delay:.55s} .d4{animation-delay:.75s} .d5{animation-delay:.95s} .d6{animation-delay:1.15s}
+  .draw{stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 1.8s cubic-bezier(.65,0,.35,1) .4s forwards}
+  .spin{transform-origin:center;transform-box:fill-box;animation:spin 40s linear infinite} .spin-r{animation-direction:reverse;animation-duration:60s}
+  @keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @media (prefers-reduced-motion:reduce){.in,.spin{animation:none}.draw{animation:none;stroke-dashoffset:0}}
+</style>
+<g clip-path="url(#clip)"><rect width="1200" height="300" fill="url(#bg)"/><rect x="720" width="480" height="300" fill="url(#grid)"/><rect width="1200" height="300" fill="url(#glow)"/>
+<rect x=".5" y=".5" width="1199" height="299" rx="18" fill="none" stroke="#1E2A44"/>
+
+<g class="in d1"><text class="sans" x="56" y="72" font-size="17" fill="#9AA6B8">Product &amp; growth builder who started in engineering. Thirty months at Apexon</text>
+<text class="sans" x="56" y="100" font-size="17" fill="#9AA6B8">taught me how technical decisions move engagement; running a hospitality</text>
+<text class="sans" x="56" y="128" font-size="17" fill="#9AA6B8">business and a digital studio taught me to measure bookings, leads and trust.</text>
+<text class="sans" x="56" y="156" font-size="17" fill="#9AA6B8"></text>
+<text class="sans" x="56" y="184" font-size="17" fill="#9AA6B8">Today I study PGDM E-Business at WeSchool Mumbai, build BatchMates, and</text>
+<text class="sans" x="56" y="212" font-size="17" fill="#9AA6B8">keep asking one question: what makes people choose a product and come back?</text></g>
+<path d="M760 48 V252" stroke="#1E2A44"/>
+<g class="in d2"><text class="mono" x="796" y="74" font-size="11" fill="#F2A541" letter-spacing="2">NOW</text><text class="sans" x="900" y="74" font-size="14.5" fill="#F5F1E8">PGDM E-Business '27, WeSchool Mumbai</text></g>
+<g class="in d3"><text class="mono" x="796" y="114" font-size="11" fill="#F2A541" letter-spacing="2">RECENTLY</text><text class="sans" x="900" y="114" font-size="14.5" fill="#F5F1E8">PM &amp; Strategy Intern, Uni Bamberg</text></g>
+<g class="in d4"><text class="mono" x="796" y="154" font-size="11" fill="#F2A541" letter-spacing="2">BEFORE</text><text class="sans" x="900" y="154" font-size="14.5" fill="#F5F1E8">Senior Front End Dev, Apexon</text></g>
+<g class="in d5"><text class="mono" x="796" y="194" font-size="11" fill="#F2A541" letter-spacing="2">BUILDING</text><text class="sans" x="900" y="194" font-size="14.5" fill="#F5F1E8">BatchMates, verified campus network</text></g>
+<g class="in d6"><text class="mono" x="796" y="234" font-size="11" fill="#F2A541" letter-spacing="2">BASED IN</text><text class="sans" x="900" y="234" font-size="14.5" fill="#F5F1E8">Mumbai, India</text></g>
+</g></svg>

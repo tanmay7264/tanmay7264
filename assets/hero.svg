@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="Tanmay Narnaware: Product &amp; Growth Builder. I connect engineering, customer insight and growth to build products people return to.">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1120"/><stop offset="1" stop-color="#070B16"/></linearGradient>
+  <radialGradient id="glow" cx="85%" cy="25%" r="60%"><stop offset="0" stop-color="#B8661F" stop-opacity=".45"/><stop offset="1" stop-color="#B8661F" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#F2A541" stroke-opacity=".06"/></pattern>
+  <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F2A541"/><stop offset=".6" stop-color="#B8661F"/><stop offset="1" stop-color="#B8661F" stop-opacity="0"/></linearGradient>
+  <linearGradient id="sheen" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
+    <stop offset="0" stop-color="#F2A541"/><stop offset=".5" stop-color="#F5F1E8"/><stop offset="1" stop-color="#F2A541"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="0 0;1500 0;1500 0" keyTimes="0;.4;1" dur="7s" begin="1.5s" repeatCount="indefinite"/>
+  </linearGradient>
+  <clipPath id="clip"><rect width="1200" height="440" rx="18"/></clipPath>
+</defs><style>
+  .serif{font-family:Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif} .mono{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace} .sans{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif}
+  .in{animation:in 1.1s cubic-bezier(.16,1,.3,1) both} .d1{animation-delay:.15s} .d2{animation-delay:.35s} .d3{animation-delay:.55s} .d4{animation-delay:.75s} .d5{animation-delay:.95s} .d6{animation-delay:1.15s}
+  .draw{stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 1.8s cubic-bezier(.65,0,.35,1) .4s forwards}
+  .spin{transform-origin:center;transform-box:fill-box;animation:spin 40s linear infinite} .spin-r{animation-direction:reverse;animation-duration:60s}
+  @keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @media (prefers-reduced-motion:reduce){.in,.spin{animation:none}.draw{animation:none;stroke-dashoffset:0}}
+</style>
+<g clip-path="url(#clip)"><rect width="1200" height="440" fill="url(#bg)"/><rect x="720" width="480" height="440" fill="url(#grid)"/><rect width="1200" height="440" fill="url(#glow)"/>
+<rect x=".5" y=".5" width="1199" height="439" rx="18" fill="none" stroke="#1E2A44"/>
+
+<g class="spin" opacity=".9"><circle cx="980" cy="190" r="150" fill="none" stroke="#F2A541" stroke-opacity=".35" stroke-dasharray="2 10"/></g>
+<g class="spin spin-r"><circle cx="980" cy="190" r="118" fill="none" stroke="#FFD9A8" stroke-opacity=".25" stroke-dasharray="40 14"/><circle cx="980" cy="72" r="5" fill="#F2A541"/></g>
+<circle cx="980" cy="190" r="88" fill="#070B16" stroke="#F2A541" stroke-opacity=".6"/>
+<text class="serif" x="980" y="214" font-size="72" fill="url(#sheen)" text-anchor="middle" font-weight="300" font-style="italic">TN</text>
+<g class="in d1"><text class="mono" x="64" y="78" font-size="12" fill="#F2A541" letter-spacing="3">HELLO, WORLD · MUMBAI, IN</text></g>
+<g class="in d2"><text class="serif" x="60" y="150" font-size="76" fill="#F5F1E8" letter-spacing="-2" font-weight="300">Tanmay</text><text class="serif" x="60" y="222" font-size="76" fill="url(#sheen)" letter-spacing="-2" font-weight="300" font-style="italic">Narnaware.</text></g>
+<g class="in d3"><text class="sans" x="64" y="266" font-size="22" fill="#FFD9A8">Product &amp; Growth Builder</text><text class="sans" x="64" y="296" font-size="16" fill="#9AA6B8">I connect engineering, customer insight and growth to build products people return to.</text></g>
+<g class="in d4"><text class="mono" x="64" y="324" font-size="12" fill="#9AA6B8" letter-spacing="1">PGDM E-Business '27 · WeSchool Mumbai · Ex-Apexon · Founder, BatchMates</text></g>
+<path class="draw" d="M64 356 H1136" stroke="url(#rule)"/>
+<g class="in d5"><text class="sans" x="64" y="400" font-size="13" fill="#9AA6B8"><tspan class="serif" font-size="30" fill="#F5F1E8">30</tspan><tspan dx="10" fill="#9AA6B8">months at Apexon</tspan></text>
+<text class="sans" x="334" y="400" font-size="13" fill="#9AA6B8"><tspan class="serif" font-size="30" fill="#F5F1E8">99.37</tspan><tspan dx="10" fill="#9AA6B8">CMAT I&amp;E percentile</tspan></text>
+<text class="sans" x="604" y="400" font-size="13" fill="#9AA6B8"><tspan class="serif" font-size="30" fill="#F5F1E8">1,400+</tspan><tspan dx="10" fill="#9AA6B8">student community</tspan></text>
+<text class="sans" x="874" y="400" font-size="13" fill="#9AA6B8"><tspan class="serif" font-size="30" fill="#F5F1E8">45→80%</tspan><tspan dx="10" fill="#9AA6B8">villa occupancy</tspan></text></g>
+</g></svg>
